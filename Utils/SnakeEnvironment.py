@@ -87,6 +87,7 @@ class SnakeGame():
                     self.direction = "up"
                 elif event.key == pygame.K_DOWN and self.direction != "up":
                     self.direction = "down"
+                    
     
     def run(self):
         pygame.init()
