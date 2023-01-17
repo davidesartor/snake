@@ -1,5 +1,6 @@
 import pygame
-from environment import SnakeEnv
+ 
+from utils.environment import SnakeEnv
  
 class SnakeGame(SnakeEnv):
     def render(self, magnify = 20):

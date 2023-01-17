@@ -91,7 +91,7 @@ class SnakeEnv():
     
     def get_state(self):
         # add base board
-        board_state = self.board.state
+        board_state = self.board.state.copy()
         
         # add snake 
         board_state[self.snake_position[0]] = 2
